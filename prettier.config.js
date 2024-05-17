@@ -1,7 +1,7 @@
 // prettier.config.js, .prettierrc.js, prettier.config.cjs, or .prettierrc.cjs
 
 /** @type {import("prettier").Config} */
-const config = {
+export default {
   tabWidth: 2,
   useTabs: false,
   semi: false,
@@ -10,5 +10,3 @@ const config = {
   trailingComma: 'none',
   plugins: ['prettier-plugin-tailwindcss']
 }
-
-module.exports = config
