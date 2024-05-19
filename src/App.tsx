@@ -1,3 +1,5 @@
+import Header from './components/Header'
+
 export default function App() {
-  return <a className='text-3xl font-bold underline'>Hello world!</a>
+  return <Header />
 }
