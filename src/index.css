@@ -7,12 +7,12 @@
     @apply text-6xl font-semibold;
   }
   h2 {
-    @apply text-5xl font-semibold;
-  }
-  h3 {
     @apply text-4xl font-semibold;
   }
+  h3 {
+    @apply text-2xl font-semibold;
+  }
   p {
-    @apply text-lg;
+    @apply text-base;
   }
 }
