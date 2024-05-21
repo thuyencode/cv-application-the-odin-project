@@ -3,7 +3,7 @@ import Info from './Info'
 
 function Sidebar() {
   return (
-    <section className='w-1/5 min-w-72 space-y-10 border-r-2 border-r-gray-300 py-10 pr-10'>
+    <section className='w-1/5 min-w-72 space-y-10 py-10 pr-10'>
       {/* Dummy data created by https://generatedata.com */}
       <GroupInfo title='Details*'>
         <Info title='Address'>P.O. Box 325, 6219 Sagittis Avenue</Info>
@@ -26,7 +26,7 @@ function Sidebar() {
       </GroupInfo>
 
       {/* Nothing here is representing my real actual skills */}
-      <GroupInfo title='Languages***'>
+      <GroupInfo title='Languages**'>
         <Info title='Vietnamese' percentage={0} />
         <Info title='English' percentage={20} />
       </GroupInfo>
