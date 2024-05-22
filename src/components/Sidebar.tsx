@@ -12,7 +12,7 @@ function Sidebar() {
         <Info title='Nationality'>South Korea</Info>
       </GroupInfo>
 
-      {/* Nothing here is representing my real actual skills */}
+      {/* Nothing here is reflecting my real actual skills */}
       <GroupInfo title='Skills**'>
         <Info title='Performance optimization' percentage={80} />
         <Info

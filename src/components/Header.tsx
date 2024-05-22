@@ -1,6 +1,6 @@
 function Header() {
   return (
-    <header className='space-y-5 border-b-2 border-b-gray-300 py-10'>
+    <header className='space-y-5 py-10'>
       <h1 className='inline-flex flex-col uppercase'>
         <span>Thuyen</span>
         <span>Code</span>
