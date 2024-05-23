@@ -1,30 +1,36 @@
-# React + TypeScript + Vite
+# Project: CV Applications
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The design of this project is inspired by [resume.io](https://resume.io/resume-templates/simple)'s Berlin CV design.
 
-Currently, two official plugins are available:
+[More detail information here](https://www.theodinproject.com/lessons/node-path-react-new-cv-application).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting started
 
-## Expanding the ESLint configuration
+First, install all the dependencies:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+```bash
+npm install
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+# If you prefer bun
+bun i
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+To run the dev server:
+
+```bash
+npm run dev
+
+# If you prefer bun
+bun dev
+```
+
+To export and preview the production build:
+
+```bash
+npm run build
+npm run preview
+
+# If you prefer bun
+bun run build
+bun run deploy
+```
