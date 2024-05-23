@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Header />
-      <div className='flex divide-x-2 divide-gray-300'>
+      <div className='flex divide-gray-300 max-lg:flex-col max-lg:divide-y-2 lg:divide-x-2'>
         <Sidebar />
         <Main />
       </div>

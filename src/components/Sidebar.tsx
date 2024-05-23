@@ -3,9 +3,12 @@ import Info from './Info'
 
 function Sidebar() {
   return (
-    <section className='w-1/5 min-w-72 space-y-10 py-10 pr-10'>
+    <section className='space-y-10 py-5 sm:py-10 lg:pr-10'>
       {/* Dummy data created by https://generatedata.com */}
-      <GroupInfo title='Details*'>
+      <GroupInfo
+        title='Details*'
+        childrenContainerClassName='max-lg:grid max-lg:grid-cols-2 max-xs:grid-cols-1 max-lg:space-y-0 gap-4 sm:gap-8'
+      >
         <Info title='Address'>P.O. Box 325, 6219 Sagittis Avenue</Info>
         <Info title='Phone'>1-528-589-4226</Info>
         <Info title='Email'>feugiat.placerat@yahoo.couk</Info>
@@ -13,7 +16,10 @@ function Sidebar() {
       </GroupInfo>
 
       {/* Nothing here is reflecting my real actual skills */}
-      <GroupInfo title='Skills**'>
+      <GroupInfo
+        title='Skills**'
+        childrenContainerClassName='max-lg:grid max-lg:grid-cols-2 max-xs:grid-cols-1 max-lg:space-y-0 gap-4 sm:gap-8'
+      >
         <Info title='Performance optimization' percentage={80} />
         <Info
           title='Troubleshooting and solutions deployment'
@@ -26,7 +32,10 @@ function Sidebar() {
       </GroupInfo>
 
       {/* Nothing here is representing my real actual skills */}
-      <GroupInfo title='Languages**'>
+      <GroupInfo
+        title='Languages**'
+        childrenContainerClassName='max-lg:grid max-lg:grid-cols-2 max-xs:grid-cols-1 max-lg:space-y-0 gap-4 sm:gap-8'
+      >
         <Info title='Vietnamese' percentage={0} />
         <Info title='English' percentage={20} />
       </GroupInfo>

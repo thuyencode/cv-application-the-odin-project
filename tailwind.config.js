@@ -7,6 +7,12 @@ export default {
     extend: {
       fontFamily: {
         sans: ['Inter', ...defaultTheme.fontFamily.sans]
+      },
+      gridTemplateColumns: {
+        ram: 'repeat(auto-fit, minmax(768px, 1fr))'
+      },
+      screens: {
+        xs: '475px'
       }
     }
   },

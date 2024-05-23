@@ -2,7 +2,7 @@ import GroupInfo from './GroupInfo'
 
 function Main() {
   return (
-    <main className='flex w-full flex-col divide-y-2 divide-gray-300 pl-10'>
+    <main className='flex flex-col divide-y-2 divide-gray-300 lg:pl-10'>
       <GroupInfo title='Profile' className='py-10'>
         Driven web developer with a deep passion for the entire web development
         process. I thrive on the challenge of translating ideas into clean,
@@ -11,9 +11,11 @@ function Main() {
 
       <GroupInfo title='Employment history*' className='py-10'>
         <div>
-          <div className='mb-2.5 flex items-center justify-between'>
+          <div className='max-xs:flex-col xs:items-center mb-2.5 flex justify-between'>
             <h4 className='capitalize'>Programmer, Acme Technologies Inc.</h4>
-            <p className='capitalize text-gray-500'>San Francisco, CA</p>
+            <p className='xs:pl-2.5 capitalize text-gray-500'>
+              San Francisco, CA
+            </p>
           </div>
 
           <p className='mb-5 capitalize text-gray-500'>June 2022 - May 2024</p>
@@ -42,9 +44,9 @@ function Main() {
         </div>
 
         <div>
-          <div className='mb-2.5 flex items-center justify-between'>
+          <div className='max-xs:flex-col xs:items-center mb-2.5 flex justify-between'>
             <h4 className='capitalize'>Programmer, GreenEarth Solutions.</h4>
-            <p className='capitalize text-gray-500'>Austin, TX</p>
+            <p className='xs:pl-2.5 capitalize text-gray-500'>Austin, TX</p>
           </div>
 
           <p className='mb-5 capitalize text-gray-500'>
@@ -77,16 +79,14 @@ function Main() {
 
       <GroupInfo title='Education*' className='py-10'>
         <div>
-          <div className='mb-2.5 flex items-center justify-between'>
+          <div className='max-xs:flex-col xs:items-center mb-2.5 flex justify-between'>
             <h4 className='capitalize'>
               Bachelor of Science in Computer Science, Evergreen Tech University
             </h4>
             <p className='capitalize text-gray-500'>Seattle, WA</p>
           </div>
 
-          <p className='mb-5 capitalize text-gray-500'>
-            August 2018 - May 2022
-          </p>
+          <p className='capitalize text-gray-500'>August 2018 - May 2022</p>
         </div>
       </GroupInfo>
     </main>
